@@ -13,4 +13,9 @@ class Tabuleiro
         this.colunas = colunas;
         pecas = new Peca[linhas, colunas];
     }
+
+    public Peca peca(int linna, int coluna)
+    {
+        return pecas[linna, coluna];
+    }
 }
