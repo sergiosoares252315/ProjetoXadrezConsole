@@ -15,4 +15,9 @@ class Peca
         this.cor = cor;
         this.qteMovimento = 0;
     }
+
+    public void incrementaQteMovimento()
+    {
+        qteMovimento++;
+    }
 }
